@@ -37,9 +37,13 @@ Can we do better with only one loop and constant extra space?
 Note "How much water the it can hold at a given position". It only depends on the smaller of the too max sides on the left and on the right. 
 So we can try to iterate from both sides and record the max height on each side. The lower of the two is boundary from the water on its own side because we already know the other side is higher. Whatever between the current position and the other side (where the higher of the two locates), the water can be hold upto the lower hight because the other side can support it.
 E.g
+```
 3     1     2     *     *     *     6 (6 means the bar at this postion is 6 high)
+
 |           |                       |
+
 leftMax    left                   rightMax/right
+```
 
 The current height is 2. And the leftMax is 3 and rightMax is 6. What can always reach 3 (leftMax) or holding 1 (3 - 2). This is because even though all those * can be less than 3 (e.g. 1). rightMax 6 is still higher than 3. From the right side of current position, the rightMax would be at least 6 as some "*" might be higher than 6. But since we only care the minimum of the leftMax and rightMax. So it is always 3 because rightMaxCur >= 6 > 3. So we can be sure 3 - 2 = 1 of volume of water can be hold at the current position.
 This enables the two pointer solution.
@@ -62,16 +66,19 @@ while (left < right) {
 #### Solution 3: Stack
 
 From the question "Can water be kept at a given position?" we know it requires both sides have a higher bar than the one in the current position. We can find the clostest higher bar (in terms of the position) on each side respectively. And fill the water to the lower of the height of the two higher bar. And then check if on the direction of the lower bar to see if we can find a higher one. And then we can check how much water can be hold on top of the previous fills.
-
+```
 3     1     2     *     *
+```
 
 For position 1, the left higher bar is 3 and  the right is 2.  So At pos 1, it can hold (min(3,2) - 1) * (2 - 0 - 1) = 1 of water. The first part is the minimum of two higher bar - the current hight and the second is the range to fill. 
-
+```
 3     1     2     3     *
+```
 
 If the next element is 3 at pos 3, for 2 both higher bar are 3. it can hold (min(3, 3) - 2) at a postion. And we can 2 to fill. This is because we already fill pos 1 to raise it to the hight 2 in prevous operation. But with the new 3, it can be raised again. So it is (3 - 0 - 1). In total (min(3, 3) - 2) * (3 - 0 - 1) = 2.
-
+```
 3     1     2     3     5
+```
 
 If the next element is 5, we can not hold any water at pos 3 because it is also 3 at pos 0. No water can be hold. Also because 5 is highest so far, we do not need to check any previous bar.
 

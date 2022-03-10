@@ -18,7 +18,7 @@ class MinimumNumberofMovestoMakePalindrome {
             }
             if (cur.size() == 1) {
                 int pos = cur.removeFirst();
-                res += i + (N/2 - cnt) - N/2;
+                res += i - cnt;
             } else {
                 cur.removeFirst();
                 int back = cur.removeLast();
