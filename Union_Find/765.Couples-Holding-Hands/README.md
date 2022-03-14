@@ -26,12 +26,15 @@ For the above statement. You can prove it by contradication.
 For two nodes, it is obviously 1 edge. Also for three node, it would 2 edges. They are satisfy n - 1 edges. Let's assume for n >= 4, there exists a m such that m is the minimum number of nodes such that only at most m - 2 edges are required to get a connected graph.
 
 Let us check the degree of the nodes. The degree of a node here is the number of edges connected to a node.
+
 If there is a node with degree of 0, it does not connected to other node. it won't be in the connected graph with order m.
+
 If there is a node with degree of 1, it is the end node, meaning you can remove its edge and the rest of the graph is still connected. Let's check the rest of the graph.
    There is m - 1 node and it has at most m - 3 edges because the orignal graph contains at most m - 2 edges.  So for the rest of the graph is also satisfy the condition m -1 nodes with m - 3 edges. But it is contradict to m is the minimum number of nodes can form such connected graph and we already know when n <= 3, it does not satisfy at most n - 2. So there is not correct.
+
 If all nodes with at least 2 degree / 2 edges, Let's say there are k edges in the graph. Each edge connecting two nodes. We would get 2 * k (the sum of degree) >= 2 * m ( m nodes with at least 2 degree). And we would get k >= m and m > m - 2. So k > m - 2. that contradicts to at most m - 2 edges.
 
-So there is at least n - 1 edges.
+So there are at least n - 1 edges.
 
 Then we can implement this greedy approach as follows:
 1. save the number in row and its id in a map. Since row contains unique iterm, we would store all the information in map. row[i] as key and i as value.

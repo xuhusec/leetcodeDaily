@@ -7,10 +7,11 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 
 #### [Union Find](Union_Find)
 [765.Couples-Holding-Hands](Union_Find/765.Couples-Holding-Hands) (H-)  
-[1722.Minimize-Hamming-Distance-After-Swap-Operations](Union_Find/1722.Minimize-Hamming-Distance-After-Swap-Operations) (M+)  
-[2157.Groups-of-Strings](Union_Find/2157.Groups-of-Strings) (H) 
+[1627.Graph-Connectivity-With-Threshold](Union_Find/1627.Graph-Connectivity-With-Threshold) (M+)  
+[1722.Minimize-Hamming-Distance-After-Swap-Operations](Union_Find/1722.Minimize-Hamming-Distance-After-Swap-Operations) (M+)   
+[2157.Groups-of-Strings](Union_Find/2157.Groups-of-Strings) (H)  
 
 #### [Greedy](Greedy)
-[2193.Minimum-Number-of-Moves-to-Make-Palindrome](Greedy/2193.Minimum-Number-of-Moves-to-Make-Palindrome) (H)
+[2193.Minimum-Number-of-Moves-to-Make-Palindrome](Greedy/2193.Minimum-Number-of-Moves-to-Make-Palindrome) (H)  
 * ``Three-pass``   
 [042.Trapping-Rain-Water](Stack/042.Trapping-Rain-Water) (H)  
