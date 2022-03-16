@@ -5,6 +5,10 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 * ``monotonic stack``    
 [042.Trapping-Rain-Water](Stack/042.Trapping-Rain-Water) (H)  
 
+#### [BFS](BFS)  
+* ``Dijkstra (BFS+PQ)``   
+[743.Network-Delay-Time](BFS/743.Network-Delay-Time) (M)    
+
 #### [Union Find](Union_Find)
 [765.Couples-Holding-Hands](Union_Find/765.Couples-Holding-Hands) (H-)  
 [1627.Graph-Connectivity-With-Threshold](Union_Find/1627.Graph-Connectivity-With-Threshold) (M+)  
