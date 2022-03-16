@@ -1,6 +1,9 @@
 import java.util.Deque;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.LinkedList;
 
-class MinimumNumberofMovestoMakePalindrome {
+class MinimumNumberofMovestoMakePalindromeMergeSort {
     public int minMovesToMakePalindrome(String s) {
         final int N = s.length();
         int cnt = 0;
@@ -17,7 +20,7 @@ class MinimumNumberofMovestoMakePalindrome {
                 continue;
             }
             if (cur.size() == 1) {
-                int pos = cur.removeFirst();
+                cur.removeFirst();
                 res += i - cnt;
             } else {
                 cur.removeFirst();
