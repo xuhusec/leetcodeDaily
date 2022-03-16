@@ -1,4 +1,4 @@
-### 2157. Groups of Strings
+### [2157. Groups of Strings](https://leetcode.com/problems/groups-of-strings/)
 
 #### Solution 1: UnionFind + BitMask + Nest Loop (Time out)
 
@@ -41,5 +41,3 @@ It is possible to remove the nest loop of 676(26 * 26)? Let us check the rule 3 
 3. try delete character one in a loop
 4. check if the mask of deleted string is seen, If yes, perform union find, otherwise, put it as the key and the index of the original string as the value in map
 5. generate group size and size of the largest group as before
-
-[Leetcode Link](https://leetcode.com/problems/groups-of-strings/)

@@ -1,4 +1,4 @@
-### 743. Network Delay Time
+### 743. [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 
 #### Solution 1: Brute Force with BFS or DFS
 
@@ -76,4 +76,3 @@ for (int m = 0; m < n; ++m) {
 
 In initialization, dist is set to very large value to repesents infinity except there is a path between i and j, aka `dist[i][j] = cost[i][j]` and `dp[i][i] = 0`. As you can see this is 3 levels nested loop, the time comlexity is O(V<sup>3</sup>). The result is for all nodes to all nodes not a single source. No limitation on negative costs.
 
-[Leetcode Link](https://leetcode.com/problems/network-delay-time/)

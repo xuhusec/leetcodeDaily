@@ -1,4 +1,4 @@
-### 1627. Graph Connectivity With Threshold
+### [1627. Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)
 
 The problem asks for connectivity directly or indirectly. 
 If only directly connection is allowed. This would be a easy problem. We only need to count when the greater common divisor is greater than the threshold. For reference, the following is the gcd function.
@@ -34,6 +34,3 @@ n/1 + n/2 + n/3 + n/4 + .. n/n = n * (1 + 1/2 + 1/3 + .. + 1/n).
 After finding all the groups satisfy the threshold directly or indirectly, the rest would be just test in each query if the two has the common parent or root in the union find.
 
 There is one place can be improved. For the outter loop, any number which is a multiple of previous visited element can be safely ignored. So we can use the idea of [sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) to have a boolean array to record visited number in the inner loop and skip them when the outter loop encounter them again.
-
-
-[Leetcode Link](https://leetcode.com/problems/graph-connectivity-with-threshold/)

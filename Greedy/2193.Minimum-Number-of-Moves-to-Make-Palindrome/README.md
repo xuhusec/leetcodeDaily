@@ -1,4 +1,4 @@
-### 2193. Minimum Number of Moves to Make Palindrome
+### [2193. Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)
 
 #### Solution 1: Greedy
 
@@ -104,5 +104,3 @@ Why this is correct?
 As mentioned in the first solution
 
 We can keep the left side as much as possible. After moving the paired character to the second half or right side. Moving them to final placed is costs (+ cost moving them to the right side) the same as the way in solution 1 because the relative order does not change. For the single character, unlike the previous solution, it is placed at the end of the left side at that time. In that case, it does not add cost to the future operation because the next character would move the cnt position anyway.
-
-[Leetcode Link](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)

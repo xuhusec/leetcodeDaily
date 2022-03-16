@@ -1,4 +1,4 @@
-### 42. Trapping Rain Water
+### [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
 
 #### Solution 1: Three Pass
 
@@ -90,5 +90,3 @@ Then we can use stack and maintain a mini stack. the mini stack is based on the 
 In java, If a Collection of Stack such as Deque is used, it might be slow because of auto-boxing of integer. I also provide a simulation of stack by an integer array. And you can see this algorithm is also as fast as the previous two. However, you should not use the later one, it is only to illustrate. The approach is error-prone and it is too specific for integer primative. It only means to illustrate the impact of auto-boxing.
 
 084.Largest-Rectangle-in-Histogram can also be resolved this way but you need to think in reverse.
-
-[Leetcode Link](https://leetcode.com/problems/trapping-rain-water)

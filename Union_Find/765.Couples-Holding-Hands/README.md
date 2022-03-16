@@ -1,4 +1,4 @@
-### 765. Couples Holding Hands
+### [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
 
 #### Solution 1: Greedy
 
@@ -57,5 +57,3 @@ Notes
 1. In step 3, you can use row[2 * i] instead of 2 * i but is does not matter. 
 2. When create UnionFind object, I add an extra node as special node for visited node, i.e UnionFind(N+1). To mark a group is visited would be union with that special node `uf.union(2 * i, N);` and check if a node is already visited `uf.find(2 * i) == uf.find(N)`.
 3. If you want to keep the orignal data in UnionFind for some reason, you can create another array of size N. and calcuate the group size by `cnts[uf.find(2 * i)]++;` and go over the cnts array to compute the result. In current implementation, I use the ranks array to get the count during union and improve the path compression efficiency. So count is already for free.
-
-[Leetcode Link](https://leetcode.com/problems/couples-holding-hands/)

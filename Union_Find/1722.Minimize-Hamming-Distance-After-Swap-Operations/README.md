@@ -1,4 +1,4 @@
-### 1722. Minimize Hamming Distance After Swap Operations
+### [1722. Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)
 
 The allowedSwaps enable swapping characters. The statement said you can swap elements at a specific pair of indices multiple times and in any order. That means the results of swapping is all permutations of character in the swapping chain. If there is one pair, you can only swap two characters back and forth. However, there exists another pair and one of the element is also in the previous pair. Then all three elements form a chain. Similarly, you may have four element chain, five element chain etc. 
 
@@ -34,6 +34,3 @@ For DFS, the idea is similary to union find. However, we do not have the parent 
 UnionFind seems fast from my result. However, DFS can also helps in some espcial cases. For example, If this is dynamic question, after some instruction in allowedSwaps was removed, what the minimize hamming distance would be?  For UnionFind, it must run all the instructions in allowedSwaps (after deletion) again. With DFS, we can update the adjcent map, graph, and rerun dfs only on the two indices in the deleted allowedSwaps instruction. Some minor changes are required,
 1. keep a deep copy of the array of maps before calculate the hamming distance so that the data can be used after the current calculation
 2. the termination condition in the DFS. from `group[i] != null` to `group[i] != map` (map here is the new occurance map). Further, after iterate one of the indices in the instruction. We can just get the other map and minus the occurance from the previous node. Of course, you should make sure they are not connected before the subtract. i.e a <-> b, a <-> c and b <-> c. Even though you delete the instruction of a <-> b, because of c, a is still connected with b.
-
-
-[Leetcode Link](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)
