@@ -3,6 +3,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 
 #### [BFS](BFS)  
 * ``Dijkstra (BFS+PQ)``   
+[505.The-Maze-II](BFS/505.The-Maze-II) (M)   
 [743.Network-Delay-Time](BFS/743.Network-Delay-Time) (M)   
 [1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
 [1514.Path-with-Maximum-Probability](BFS/1514.Path-with-Maximum-Probability) (H)  
