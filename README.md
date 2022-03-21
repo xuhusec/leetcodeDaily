@@ -7,6 +7,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [743.Network-Delay-Time](BFS/743.Network-Delay-Time) (M)   
 [1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
 [1514.Path-with-Maximum-Probability](BFS/1514.Path-with-Maximum-Probability) (H)  
+[1976.Number-of-Ways-to-Arrive-at-Destination](BFS/1976.Number-of-Ways-to-Arrive-at-Destination) (M+)  
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)  
 
 #### [Greedy](Greedy)

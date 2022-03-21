@@ -1,0 +1,11 @@
+### [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)
+
+#### Solution 1: Dijkstra + DFS + Memo
+
+The question asks number of ways to arrive at the destination. We can firstly get the minimum costs from the source to all the other nodes via Dijkstra. The shortest path must go though the minimum cost. So we only need to care about the path via shortest path. We then peform DFS to only work on the shortests paths to all nodes. Once it reaches the destination. we record 1 and so on. But it would time out. We can improve this by memorization. Because we only work on the shortest path the node can determine all the valid cases. So, we can creat a cnt array to record the cnt of valid path from node j to the destination.
+
+Please note the time is <= 1e9. and n <= 200. 200 * 1e9 > Integer.MAX_VALUE so we need to use long instead of int to record the costs.
+
+#### Solution 2: Dijkstra + the idea of toplogical sorting
+
+In this solution, we still find out shortest path via Dijkstra but the difference is that we can also get an cnt array to record the shortest path from the start to the current node. Because there is only positive cost or time, all the shortest path to the current node would be found before the current node pop out of the priority queue. That is because it is is a priority queue and once the current node pop out. 1) currently it is the shortest path for the current node. 2) any new path would cost more than the cost of reaching the current node. (the edge is positive and all the nodes come after the current node would cost more than or equal to the current cost). The equal path would be pushed before the current node poped out. Any path of the current node would cost more expensive. So we can use the idea of topological sorting, to record the cnts before the node popped out. 
