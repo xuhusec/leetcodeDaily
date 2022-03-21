@@ -12,8 +12,8 @@ This approach is not documented here.
 #### Solution 2: [Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) 
 
 Dijkstra can be implemented in two way.
-1. BFS + PQ
-2. BFS + node scan
+1. BFS + PQ (sparse graph)
+2. BFS + node scan (dense graph)
 
 For a graph with V nodes and E edges. The first one provide O(ElogE). And the second one is O(V<sup>2</sup>). Usually, the first approach performance better.
 
