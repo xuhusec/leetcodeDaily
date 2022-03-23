@@ -10,6 +10,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1514.Path-with-Maximum-Probability](BFS/1514.Path-with-Maximum-Probability) (H)  
 [1786.Number-of-Restricted-Paths-From-First-to-Last-Node](BFS/1786.Number-of-Restricted-Paths-From-First-to-Last-Node) (M+)  
 [1976.Number-of-Ways-to-Arrive-at-Destination](BFS/1976.Number-of-Ways-to-Arrive-at-Destination) (M+)  
+[2093.Minimum-Cost-to-Reach-City-With-Discounts](BFS/2093.Minimum-Cost-to-Reach-City-With-Discounts) (H-)  
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)  
 
 #### [Greedy](Greedy)
