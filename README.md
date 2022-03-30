@@ -15,6 +15,13 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [2093.Minimum-Cost-to-Reach-City-With-Discounts](BFS/2093.Minimum-Cost-to-Reach-City-With-Discounts) (H-)  
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)  
 
+#### [Dynamic_Programming](Dynamic_Programming)
+[2218.Maximum-Value-of-K-Coins-From-Piles](Dynamic_Programming/2218.Maximum-Value-of-K-Coins-From-Piles) (H-)   
+* ``II``  
+[2188.Minimum-Time-to-Finish-the-Race](Dynamic_Programming/2188.Minimum-Time-to-Finish-the-Race) (H-)  
+[2209.Minimum-White-Tiles-After-Covering-With-Carpets](Dynamic_Programming/2209.Minimum-White-Tiles-After-Covering-With-Carpets) (M+)   
+
+
 #### [Greedy](Greedy)
 [2193.Minimum-Number-of-Moves-to-Make-Palindrome](Greedy/2193.Minimum-Number-of-Moves-to-Make-Palindrome) (H)  
 [2202.Maximize-the-Topmost-Element-After-K-Moves](Greedy/2202.Maximize-the-Topmost-Element-After-K-Moves) (M)   
