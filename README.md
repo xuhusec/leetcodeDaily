@@ -16,6 +16,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)  
 
 #### [Dynamic_Programming](Dynamic_Programming)
+[2189.Number-of-Ways-to-Build-House-of-Cards](Dynamic_Programming/2189.Number-of-Ways-to-Build-House-of-Cards) (H-)   
 [2218.Maximum-Value-of-K-Coins-From-Piles](Dynamic_Programming/2218.Maximum-Value-of-K-Coins-From-Piles) (H-)   
 * ``II``  
 [2188.Minimum-Time-to-Finish-the-Race](Dynamic_Programming/2188.Minimum-Time-to-Finish-the-Race) (H-)  
