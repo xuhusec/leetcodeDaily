@@ -1,0 +1,5 @@
+### [2217. Find Palindrome With Fixed Length](https://leetcode.com/problems/find-palindrome-with-fixed-length/)
+
+#### Solution 1: Brute Force
+
+The question asks to generate an array of palindrome for a given length and each element in the array is corresponding to the queries[i]-th palindrome for that length. To generate a palindrome we can construct it from its "half". The first palindrome of a given length is 100 ... 0 , (len - 1)/2 0s. Let's call it "start". and the half of the queries[i]-th palindrome is start + queries[i] - 1. So we need to iterate over the queries onces and generate the palindrome accordingly. if start + queries[i] < start * 10, we can append the flipped digits to the end. if the length is even, we just flip it. If the length is odd, we need skip the last digit when generate the flip. But if start + queires[i] > start * 10, there would be more digits in the final result and we won't have a len-digits palindrome. In that case, we should return -1.

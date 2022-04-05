@@ -29,6 +29,14 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 * ``Three-pass``   
 [042.Trapping-Rain-Water](Stack/042.Trapping-Rain-Water) (H)  
 
+#### [Others](Others)  
+* ``Enumeration``   
+[479.Largest-Palindrome-Product](Others/479.Largest-Palindrome-Product) (M+)   
+[866.Prime-Palindrome](Others/866.Prime-Palindrome) (H-)   
+[906.Super-Palindromes](Others/906.Super-Palindromes) (H-)   
+[2081.Sum-of-k-Mirror-Numbers](Others/2081.Sum-of-k-Mirror-Numbers) (H-)    
+[2217.Find-Palindrome-With-Fixed-Length](Others/2217.Find-Palindrome-With-Fixed-Length) (M+)    
+
 #### [Priority Queue](Priority_Queue)
 [1057.Campus-Bikes](Priority_Queue/1057.Campus-Bikes) (H-)  
 
