@@ -44,6 +44,9 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 * ``monotonic stack``    
 [042.Trapping-Rain-Water](Stack/042.Trapping-Rain-Water) (H)  
 
+#### [String](String)
+[2168.Unique-Substrings-With-Equal-Digit-Frequency](String/2168.Unique-Substrings-With-Equal-Digit-Frequency) (M)      
+
 #### [Union Find](Union_Find)
 [765.Couples-Holding-Hands](Union_Find/765.Couples-Holding-Hands) (H-)  
 [1627.Graph-Connectivity-With-Threshold](Union_Find/1627.Graph-Connectivity-With-Threshold) (M+)  
