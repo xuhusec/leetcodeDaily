@@ -47,6 +47,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 #### [String](String)
 [2168.Unique-Substrings-With-Equal-Digit-Frequency](String/2168.Unique-Substrings-With-Equal-Digit-Frequency) (M)      
 * ``Rolling Hash``     
+[1062.Longest-Repeating-Substring](String/1062.Longest-Repeating-Substring) (H-)   
 [2156.Find-Substring-With-Given-Hash-Value](String/2156.Find-Substring-With-Given-Hash-Value) (M)     
 
 #### [Union Find](Union_Find)
