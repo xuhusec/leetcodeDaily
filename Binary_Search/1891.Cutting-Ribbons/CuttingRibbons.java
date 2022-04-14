@@ -1,14 +1,12 @@
 public class CuttingRibbons {
     public int maxLength(int[] ribbons, int k) {
-        int lo = Integer.MAX_VALUE;
+        int lo = 0;
         int hi = Integer.MIN_VALUE;
         
         for (int r : ribbons) {
-            lo = Math.min(lo, r);
             hi = Math.max(hi, r);
         }
         
-        lo = 0;
         while (lo < hi) {
             int mid = hi - (hi - lo)/2;
             if (getRibbons(ribbons, mid) >= k) {
