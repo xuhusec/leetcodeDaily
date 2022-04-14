@@ -15,6 +15,12 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [2093.Minimum-Cost-to-Reach-City-With-Discounts](BFS/2093.Minimum-Cost-to-Reach-City-With-Discounts) (H-)  
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)  
 
+#### [Binary Search](Binary_Search)
+* ``Binary Search by Value``  
+[1011.Capacity-To-Ship-Packages-Within-D-Days](Binary_Search/1011.Capacity-To-Ship-Packages-Within-D-Days) (M)  
+[1891.Cutting-Ribbons](Binary_Search/1891.Cutting-Ribbons) (E)  
+[2226.Maximum-Candies-Allocated-to-K-Children](Binary_Search/2226.Maximum-Candies-Allocated-to-K-Children) (M)    
+
 #### [Dynamic_Programming](Dynamic_Programming)
 [2189.Number-of-Ways-to-Build-House-of-Cards](Dynamic_Programming/2189.Number-of-Ways-to-Build-House-of-Cards) (H-)   
 [2218.Maximum-Value-of-K-Coins-From-Piles](Dynamic_Programming/2218.Maximum-Value-of-K-Coins-From-Piles) (H-)   
@@ -47,8 +53,11 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 #### [String](String)
 [2168.Unique-Substrings-With-Equal-Digit-Frequency](String/2168.Unique-Substrings-With-Equal-Digit-Frequency) (M)      
 * ``Rolling Hash``     
+[1044.Longest-Duplicate-Substring](String/1044.Longest-Duplicate-Substring) (H)    
 [1062.Longest-Repeating-Substring](String/1062.Longest-Repeating-Substring) (H-)   
+[1923.Longest-Common-Subpath](String/1923.Longest-Common-Subpath) (H)  
 [2156.Find-Substring-With-Given-Hash-Value](String/2156.Find-Substring-With-Given-Hash-Value) (M)     
+[2223.Sum-of-Scores-of-Built-Strings](String/2223.Sum-of-Scores-of-Built-Strings) (H-)    
 
 #### [Union Find](Union_Find)
 [765.Couples-Holding-Hands](Union_Find/765.Couples-Holding-Hands) (H-)  

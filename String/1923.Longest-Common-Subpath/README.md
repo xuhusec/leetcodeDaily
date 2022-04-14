@@ -1,0 +1,11 @@
+### [1923.Longest-Common-Subpath](https://leetcode.com/problems/longest-common-subpath/)
+
+#### Solution 1: Rolling Hash + binary search
+
+This question requires a quick way to identify the common subpath. A Brute force solution would try all the possible sub path from one of the path (could be the first or better the shortest) and go over others check if the sub path is common among all the paths. That would be O(n<sup>2</sup>) subpaths in the reference path and for each path to form all subpaths with the same length that would be O(n) with a sliding window (For Java, to make a string is O(k) where k is the length so it would be O(k(n - k + 1))) = O(n<sup>2</sup>). In total, it would O(n<sup>3(or 4)</sup>m) where m is the number of string or O(n<sup>2</sup>L) (or O(n<sup>2</sup>L<sup>2</sup>)) where L is the total length of all th paths.
+
+To improve this, we can use rolling hash. Compare the path the same as the string. And we can use binary search to find the max length instead of enumerating all the possiblities. This would give O(logn L). However, the size is 10<sup>5</sup>. It every easy to have hash collision so we can use the double hash to reduce the possiblities.
+
+For each length. we need to count how many path contains the subpath. So we can have a map. The key is the double hash and the value is the cnt. Note, for one string we only need to count once. So we can have  a set for each path to only count unique subpath. If you enumerate all the subpath for a given length and then try to find it in all other subpath. That would gives O(nL) but if we go over all the string and count the appearance of each hash. That gives O(L). So we need the later solution.
+
+The same as other rolling hash solution. If one does not perform collision check with the original string, it can be false-positive. In this solution, we use double hash but the risk is still there. [Suffix Automation](https://cp-algorithms.com/string/suffix-automaton.html) would gives a better solution but it is complicated.
