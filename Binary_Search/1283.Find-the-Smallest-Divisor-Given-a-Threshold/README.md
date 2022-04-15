@@ -1,0 +1,7 @@
+### [1283.Find-the-Smallest-Divisor-Given-a-Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+
+#### Solution 1: binary search
+
+In this question, for a given divisor, it would be very easy to verify if it satisfy the thresold requirement. We can just iterate the array and compute the sum of quotient. Also, given the sum of quotient, it can indicate if the divisor is less than the requirement or greater than the requirement. If the sum is less than the thresold, we should increase the sum. That would be decrease the divisor. Otherwise, we should increase the divisor to lower the sum. 
+
+So, we can use binary search for this problem. Please note that a quotient in this problem is always round up. And it asks for the smallest divisor.  Like stated before, if the sum is lower than the threshold, we should decrease the divisor. that would set the upper limit. Otherwise, we should set the lower limit. Also, we need to smallest divisor. So we need to limit the upper limit. If we track the lower limit, it would give us the largest. We would set the upper limit to mid if the sum is lower than or equal to the thresold. And set lower limit to mid + 1 if the sum is greater than the thresold.
