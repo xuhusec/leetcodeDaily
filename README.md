@@ -19,7 +19,9 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 * ``Binary Search by Value``  
 [1011.Capacity-To-Ship-Packages-Within-D-Days](Binary_Search/1011.Capacity-To-Ship-Packages-Within-D-Days) (M)  
 [1283.Find-the-Smallest-Divisor-Given-a-Threshold](Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold) (M)  
+[1300.Sum-of-Mutated-Array-Closest-to-Target](Binary_Search/1300.Sum-of-Mutated-Array-Closest-to-Target) (M+)   
 [1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X](Binary_Search/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X) (M+)  
+[1870.Minimum-Speed-to-Arrive-on-Time](Binary_Search/1870.Minimum-Speed-to-Arrive-on-Time) (M)  
 [1891.Cutting-Ribbons](Binary_Search/1891.Cutting-Ribbons) (E)  
 [2226.Maximum-Candies-Allocated-to-K-Children](Binary_Search/2226.Maximum-Candies-Allocated-to-K-Children) (M)    
 
