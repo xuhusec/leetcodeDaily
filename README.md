@@ -24,6 +24,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X](Binary_Search/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X) (M+)  
 [1870.Minimum-Speed-to-Arrive-on-Time](Binary_Search/1870.Minimum-Speed-to-Arrive-on-Time) (M)  
 [1891.Cutting-Ribbons](Binary_Search/1891.Cutting-Ribbons) (E)  
+[2064.Minimized-Maximum-of-Products-Distributed-to-Any-Store](Binary_Search/2064.Minimized-Maximum-of-Products-Distributed-to-Any-Store) (M)    
 [2226.Maximum-Candies-Allocated-to-K-Children](Binary_Search/2226.Maximum-Candies-Allocated-to-K-Children) (M)    
 
 #### [Dynamic_Programming](Dynamic_Programming)
@@ -63,6 +64,10 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1923.Longest-Common-Subpath](String/1923.Longest-Common-Subpath) (H)  
 [2156.Find-Substring-With-Given-Hash-Value](String/2156.Find-Substring-With-Given-Hash-Value) (M)     
 [2223.Sum-of-Scores-of-Built-Strings](String/2223.Sum-of-Scores-of-Built-Strings) (H-)    
+
+#### [Tree](Tree)
+[099.Recover-Binary-Search-Tree](Tree/099.Recover-Binary-Search-Tree) (H)  
+
 
 #### [Union Find](Union_Find)
 [765.Couples-Holding-Hands](Union_Find/765.Couples-Holding-Hands) (H-)  

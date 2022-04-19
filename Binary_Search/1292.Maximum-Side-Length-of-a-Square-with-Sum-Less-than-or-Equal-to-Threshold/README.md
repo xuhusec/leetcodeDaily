@@ -60,7 +60,7 @@ we now can use preSum instead of mat. `if (getMinSum(preSum, mid) <= threshold) 
     }
 ```
 
-We can improve this a little better. We actually does not care getMinSum. Instead, we only care if we can get a sum of a square with mid as length <= threshold. It does not have to be the minimum. That means we can stop early in the getMinSum. So, we can have   `if (containsLessThanOrEqualSum(preSum, mid, threshold)) {` insead of `if (getMinSum(preSum, mid) <= threshold) {`.
+We can improve this a little better. We actually does not care getMinSum. Instead, we only care if we can get a sum of a square with mid as length <= threshold. It does not have to be the minimum. That means we can stop early in the getMinSum. So, we can have `if (containsLessThanOrEqualSum(preSum, mid, threshold)) {` insead of `if (getMinSum(preSum, mid) <= threshold) {`.
 
 ```java
     private boolean containsLessThanOrEqualSum(int[][] preSum, final int len, final int threshold) {
