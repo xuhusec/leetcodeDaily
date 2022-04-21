@@ -21,6 +21,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1283.Find-the-Smallest-Divisor-Given-a-Threshold](Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold) (M)  
 [1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold](Binary_Search/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold) (H-)  
 [1300.Sum-of-Mutated-Array-Closest-to-Target](Binary_Search/1300.Sum-of-Mutated-Array-Closest-to-Target) (M+)   
+[1552.Magnetic-Force-Between-Two-Balls](Binary_Search/1552.Magnetic-Force-Between-Two-Balls) (M)  
 [1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X](Binary_Search/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X) (M+)  
 [1870.Minimum-Speed-to-Arrive-on-Time](Binary_Search/1870.Minimum-Speed-to-Arrive-on-Time) (M)  
 [1891.Cutting-Ribbons](Binary_Search/1891.Cutting-Ribbons) (E)  
