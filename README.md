@@ -23,6 +23,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1300.Sum-of-Mutated-Array-Closest-to-Target](Binary_Search/1300.Sum-of-Mutated-Array-Closest-to-Target) (M+)   
 [1552.Magnetic-Force-Between-Two-Balls](Binary_Search/1552.Magnetic-Force-Between-Two-Balls) (M)  
 [1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X](Binary_Search/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X) (M+)  
+[1802.Maximum-Value-at-a-Given-Index-in-a-Bounded-Array](Binary_Search/1802.Maximum-Value-at-a-Given-Index-in-a-Bounded-Array) (M+)  
 [1870.Minimum-Speed-to-Arrive-on-Time](Binary_Search/1870.Minimum-Speed-to-Arrive-on-Time) (M)  
 [1891.Cutting-Ribbons](Binary_Search/1891.Cutting-Ribbons) (E)  
 [1898.Maximum-Number-of-Removable-Characters](Binary_Search/1898.Maximum-Number-of-Removable-Characters) (H-)  
