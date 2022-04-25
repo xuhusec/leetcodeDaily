@@ -18,6 +18,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 #### [Binary Search](Binary_Search)
 * ``Binary Search by Value``  
 [1011.Capacity-To-Ship-Packages-Within-D-Days](Binary_Search/1011.Capacity-To-Ship-Packages-Within-D-Days) (M)  
+[1201.Ugly-Number-III](Binary_Search/1201.Ugly-Number-III) (H-)    
 [1231.Divide-Chocolate](Binary_Search/1231.Divide-Chocolate) (M)   
 [1283.Find-the-Smallest-Divisor-Given-a-Threshold](Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold) (M)  
 [1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold](Binary_Search/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold) (H-)  
