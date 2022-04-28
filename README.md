@@ -26,11 +26,13 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1482.Minimum-Number-of-Days-to-Make-m-Bouquets](Binary_Search/1482.Minimum-Number-of-Days-to-Make-m-Bouquets) (M)  
 [1552.Magnetic-Force-Between-Two-Balls](Binary_Search/1552.Magnetic-Force-Between-Two-Balls) (M)  
 [1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X](Binary_Search/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X) (M+)  
+[1648.Sell-Diminishing-Valued-Colored-Balls](Binary_Search/1648.Sell-Diminishing-Valued-Colored-Balls) (H-)  
 [1802.Maximum-Value-at-a-Given-Index-in-a-Bounded-Array](Binary_Search/1802.Maximum-Value-at-a-Given-Index-in-a-Bounded-Array) (M+)  
 [1870.Minimum-Speed-to-Arrive-on-Time](Binary_Search/1870.Minimum-Speed-to-Arrive-on-Time) (M)  
 [1891.Cutting-Ribbons](Binary_Search/1891.Cutting-Ribbons) (E)  
 [1898.Maximum-Number-of-Removable-Characters](Binary_Search/1898.Maximum-Number-of-Removable-Characters) (H-)  
 [2064.Minimized-Maximum-of-Products-Distributed-to-Any-Store](Binary_Search/2064.Minimized-Maximum-of-Products-Distributed-to-Any-Store) (M)    
+[2141.Maximum-Running-Time-of-N-Computers](Binary_Search/2141.Maximum-Running-Time-of-N-Computers) (M+)     
 [2226.Maximum-Candies-Allocated-to-K-Children](Binary_Search/2226.Maximum-Candies-Allocated-to-K-Children) (M)    
 
 #### [Dynamic_Programming](Dynamic_Programming)
