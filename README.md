@@ -48,6 +48,8 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [2202.Maximize-the-Topmost-Element-After-K-Moves](Greedy/2202.Maximize-the-Topmost-Element-After-K-Moves) (M)   
 * ``Three-pass``   
 [042.Trapping-Rain-Water](Stack/042.Trapping-Rain-Water) (H)  
+* ``Sort``   
+[2250.Count-Number-of-Rectangles-Containing-Each-Point](Greedy/2250.Count-Number-of-Rectangles-Containing-Each-Point) (H-)    
 
 #### [Others](Others)  
 * ``Enumeration``   
