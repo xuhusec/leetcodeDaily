@@ -46,9 +46,12 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 #### [Greedy](Greedy)
 [2193.Minimum-Number-of-Moves-to-Make-Palindrome](Greedy/2193.Minimum-Number-of-Moves-to-Make-Palindrome) (H)  
 [2202.Maximize-the-Topmost-Element-After-K-Moves](Greedy/2202.Maximize-the-Topmost-Element-After-K-Moves) (M)   
+* ``LIS``   
+[354.Russian-Doll-Envelopes](Greedy/354.Russian-Doll-Envelopes) (H-)     
 * ``Three-pass``   
 [042.Trapping-Rain-Water](Stack/042.Trapping-Rain-Water) (H)  
 * ``Sort``   
+[1996.The-Number-of-Weak-Characters-in-the-Game](Greedy/1996.The-Number-of-Weak-Characters-in-the-Game) (M+)      
 [2250.Count-Number-of-Rectangles-Containing-Each-Point](Greedy/2250.Count-Number-of-Rectangles-Containing-Each-Point) (H-)    
 
 #### [Others](Others)  
