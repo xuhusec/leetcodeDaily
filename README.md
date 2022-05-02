@@ -80,6 +80,8 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 
 #### [Tree](Tree)
 [099.Recover-Binary-Search-Tree](Tree/099.Recover-Binary-Search-Tree) (H)  
+* ``Path in a tree``    
+[543.Diameter-of-Binary-Tree](Tree/543.Diameter-of-Binary-Tree) (M)    
 
 
 #### [Union Find](Union_Find)
