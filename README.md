@@ -84,6 +84,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [543.Diameter-of-Binary-Tree](Tree/543.Diameter-of-Binary-Tree) (M)   
 [687.Longest-Univalue-Path](Tree/687.Longest-Univalue-Path) (M+)     
 [1522.Diameter-of-N-Ary-Tree](Tree/1522.Diameter-of-N-Ary-Tree) (M)     
+[2049.Count-Nodes-With-the-Highest-Score](Tree/2049.Count-Nodes-With-the-Highest-Score) (M+)    
 
 
 #### [Union Find](Union_Find)
