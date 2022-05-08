@@ -61,6 +61,8 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [906.Super-Palindromes](Others/906.Super-Palindromes) (H-)   
 [2081.Sum-of-k-Mirror-Numbers](Others/2081.Sum-of-k-Mirror-Numbers) (H-)    
 [2217.Find-Palindrome-With-Fixed-Length](Others/2217.Find-Palindrome-With-Fixed-Length) (M+)    
+* ``Presum``   
+[2245.Maximum-Trailing-Zeros-in-a-Cornered-Path](Others/2245.Maximum-Trailing-Zeros-in-a-Cornered-Path) (M)    
 
 #### [Priority Queue](Priority_Queue)
 [1057.Campus-Bikes](Priority_Queue/1057.Campus-Bikes) (H-)  
