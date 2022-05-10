@@ -61,7 +61,10 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [906.Super-Palindromes](Others/906.Super-Palindromes) (H-)   
 [2081.Sum-of-k-Mirror-Numbers](Others/2081.Sum-of-k-Mirror-Numbers) (H-)    
 [2217.Find-Palindrome-With-Fixed-Length](Others/2217.Find-Palindrome-With-Fixed-Length) (M+)    
-* ``Presum``   
+* ``line sweep / Diff Array``   
+[056.Merge-Intervals](Others/056.Merge-Intervals) (M)   
+* ``Presum``  
+[1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)   
 [1906.Minimum-Absolute-Difference-Queries](Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
 [2245.Maximum-Trailing-Zeros-in-a-Cornered-Path](Others/2245.Maximum-Trailing-Zeros-in-a-Cornered-Path) (M)    
 
