@@ -62,7 +62,10 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [2081.Sum-of-k-Mirror-Numbers](Others/2081.Sum-of-k-Mirror-Numbers) (H-)    
 [2217.Find-Palindrome-With-Fixed-Length](Others/2217.Find-Palindrome-With-Fixed-Length) (M+)    
 * ``line sweep / Diff Array``   
+[253.Meeting-Rooms-II](Others/253.Meeting-Rooms-II) (M+)    
 [056.Merge-Intervals](Others/056.Merge-Intervals) (M)   
+[732.My-Calendar-III](Others/732.My-Calendar-III) (M)    
+[1893.Check-if-All-the-Integers-in-a-Range-Are-Covered](Others/1893.Check-if-All-the-Integers-in-a-Range-Are-Covered) (E)    
 * ``Presum``  
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)   
 [1906.Minimum-Absolute-Difference-Queries](Others/1906.Minimum-Absolute-Difference-Queries) (M+)  

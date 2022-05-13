@@ -1,0 +1,9 @@
+### [1893.Check-if-All-the-Integers-in-a-Range-Are-Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)
+
+#### Solution 1: Line Sweep
+
+Please note the range for all variables are very small. They are from 1 to 50 especially for the start time, end time, left and right. To find if a specific time is covered, we solve this by the diff array. A brute force solution would add one for every range from the start time to the end time. That would cost the O(nm) where n is the length of the ranges array and m is the average size of all ranges. But in diff array, it can be solved by O(n + M) where n is the length of the ranges array and M is the range covers all the ranges, i.e from the smallest start to the largest end. Here M is 50 which is very small. So we can add 1 at the start point and minus 1 at the end + 1 time point (because end is included in a range). Processing those diffs only requires O(n). And make a presum from the diff array. The value in the presum array at a given point is the number of ranges covers that point, which requires O(M).
+
+The question asks if the [left, right] can be covered by at least one range. We can iterate over the presum array and find if there is any 0 between left and right (inclusive). If there is any, it won't be covered. Otherwise, it is covered.
+
+If the range is large but the length of the range is limited. We can still apply the same idea. We can maintain an integer array or list to record the start and end time shown in the range and sort them. Based on the size of the array or list to make our diff array and presum array. To update a range, we can use binary search to find the index (this can be improved by make a hash map of value and its index in the array). And in the process to check the left and right range, we can find the closed index <= the left and iterate the presum until a index with value >= the right. If any zero shown in the process, we return false.
