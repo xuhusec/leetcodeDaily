@@ -65,6 +65,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [253.Meeting-Rooms-II](Others/253.Meeting-Rooms-II) (M+)    
 [056.Merge-Intervals](Others/056.Merge-Intervals) (M)   
 [732.My-Calendar-III](Others/732.My-Calendar-III) (M)    
+[1094.Car-Pooling](Others/1094.Car-Pooling) (E)  
 [1893.Check-if-All-the-Integers-in-a-Range-Are-Covered](Others/1893.Check-if-All-the-Integers-in-a-Range-Are-Covered) (E)    
 * ``Presum``  
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)   
