@@ -65,6 +65,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [253.Meeting-Rooms-II](Others/253.Meeting-Rooms-II) (M+)    
 [056.Merge-Intervals](Others/056.Merge-Intervals) (M)   
 [732.My-Calendar-III](Others/732.My-Calendar-III) (M)    
+[759.Employee-Free-Time](Others/759.Employee-Free-Time) (M+)    
 [1094.Car-Pooling](Others/1094.Car-Pooling) (E)  
 [1109.Corporate-Flight-Bookings](Others/1109.Corporate-Flight-Bookings) (M)    
 [1893.Check-if-All-the-Integers-in-a-Range-Are-Covered](Others/1893.Check-if-All-the-Integers-in-a-Range-Are-Covered) (E)    
