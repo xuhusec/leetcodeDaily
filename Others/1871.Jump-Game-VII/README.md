@@ -1,0 +1,9 @@
+### [1871.Jump-Game-VII](https://leetcode.com/problems/jump-game-vii/)
+
+#### Solution 1: Diff Array
+
+For this problem, one might want to resolve this by DP. However, to check from which index we can jump to the current index (going backward) would require go over minJump and maxJump previous to this index. The worst case, maxJump - minJump is almost n. Then, we have an O(n<sup>2</sup>) solution. However, 2 <= s.length <= 10<sup>5</sup>. So this solution would time out. 
+
+Then, let check the problem, the minJump and maxJump gives us a range. In previous solution, most time were spend on mark all the '0' in the range can be reached. In this case, we can reduce the time complexity with Diff Array. Instead of marking the individuals, we mark the range of cells we can jump from a valid point. Then, going through the list with presum. Once we have presum > 0 and character is '0', this is a valid point and we can jump from here. Mark the range that we can jump to from this point by diff array. In this case, the mark of range is only O(1) instead of O(n), aka maxJump - minJump + 1 and we only need going through one iteration to figure the anwser. If found n - 1 is valid, return true. Otherwise, false.
+
+During the process, please make sure we cannot jump out of the range. Also, the maxJump can be reached so we need add -1 at i + maxJump + 1. In convience, a n + 1 array is created so that maxJump + 1 can be handled. Otherwise, for i + maxJump + 1 > n - 1, we need do nothing. As stated in the problem s[0] == '0'. We need to start with 1. Otherwise, please mark diff[0] = 1, diff[1] = -1 before iterating from 0.
