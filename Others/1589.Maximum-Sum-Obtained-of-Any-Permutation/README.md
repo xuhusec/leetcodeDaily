@@ -1,0 +1,7 @@
+### [1589.Maximum-Sum-Obtained-of-Any-Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)
+
+#### Solution 1: Diff Array
+
+The number of the array can be arrange freely. And the sum of the counts from query is fixed. So we need the max elements to be queried most. And then the second large elements to be queried the second most. etc. So we need to place the number according to their frequency. The larger the element the position should have the larger query frequencies. So the problem become how to find out the frequency. For each query, we can add 1 to all element in the query range. However, this would lead to a O(mn) algorithm where m is the length of query and n is the size of the array. It is the continious range for each query and the increment is the same accross the range. We can use diff array to reduce the complexity. For the diff array, we only need to add the start and the end + 1 elements with +1 and -1.  The presum of the diff array is the frequency array. Then we can sort both num array and frequency (or count) array. The max element should be added max frequency times. The product of corresponding element in both array is the final answer.
+
+For the boundary condition, we used int[n + 1] instead of int[n] so that counts[end + 1] will not exceed the boundary. But this add one to the frequency. So we need shift by one during the process to get the sum.
