@@ -71,6 +71,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1589.Maximum-Sum-Obtained-of-Any-Permutation](Others/1589.Maximum-Sum-Obtained-of-Any-Permutation) (M)  
 [1871.Jump-Game-VII](Others/1871.Jump-Game-VII) (M+)  
 [1893.Check-if-All-the-Integers-in-a-Range-Are-Covered](Others/1893.Check-if-All-the-Integers-in-a-Range-Are-Covered) (E)    
+[1943.Describe-the-Painting](Others/1943.Describe-the-Painting) (H-)  
 [2015.Average-Height-of-Buildings-in-Each-Segment](Others/2015.Average-Height-of-Buildings-in-Each-Segment) (H-)     
 * ``Presum``  
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)   
