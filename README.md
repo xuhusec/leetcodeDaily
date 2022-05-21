@@ -73,6 +73,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1893.Check-if-All-the-Integers-in-a-Range-Are-Covered](Others/1893.Check-if-All-the-Integers-in-a-Range-Are-Covered) (E)    
 [1943.Describe-the-Painting](Others/1943.Describe-the-Painting) (H-)  
 [2015.Average-Height-of-Buildings-in-Each-Segment](Others/2015.Average-Height-of-Buildings-in-Each-Segment) (H-)     
+[2251.Number-of-Flowers-in-Full-Bloom](Others/2251.Number-of-Flowers-in-Full-Bloom) (M)     
 * ``Presum``  
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)   
 [1906.Minimum-Absolute-Difference-Queries](Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
