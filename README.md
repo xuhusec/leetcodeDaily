@@ -70,6 +70,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1094.Car-Pooling](Others/1094.Car-Pooling) (E)  
 [1109.Corporate-Flight-Bookings](Others/1109.Corporate-Flight-Bookings) (M)    
 [1589.Maximum-Sum-Obtained-of-Any-Permutation](Others/1589.Maximum-Sum-Obtained-of-Any-Permutation) (M)  
+[1674.Minimum-Moves-to-Make-Array-Complementary](Others/1674.Minimum-Moves-to-Make-Array-Complementary) (H)  
 [1871.Jump-Game-VII](Others/1871.Jump-Game-VII) (M+)  
 [1893.Check-if-All-the-Integers-in-a-Range-Are-Covered](Others/1893.Check-if-All-the-Integers-in-a-Range-Are-Covered) (E)    
 [1943.Describe-the-Painting](Others/1943.Describe-the-Painting) (H-)  
