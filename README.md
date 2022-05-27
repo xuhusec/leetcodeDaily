@@ -62,10 +62,12 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [2081.Sum-of-k-Mirror-Numbers](Others/2081.Sum-of-k-Mirror-Numbers) (H-)    
 [2217.Find-Palindrome-With-Fixed-Length](Others/2217.Find-Palindrome-With-Fixed-Length) (M+)    
 * ``line sweep / Diff Array``   
+[218.The-Skyline-Problem](Others/218.The-Skyline-Problem) (H)   
 [253.Meeting-Rooms-II](Others/253.Meeting-Rooms-II) (M+)    
 [056.Merge-Intervals](Others/056.Merge-Intervals) (M)   
 [732.My-Calendar-III](Others/732.My-Calendar-III) (M)    
 [759.Employee-Free-Time](Others/759.Employee-Free-Time) (M+)    
+[798.Smallest-Rotation-with-Highest-Score](Others/798.Smallest-Rotation-with-Highest-Score) (H)    
 [995.Minimum-Number-of-K-Consecutive-Bit-Flips](Others/995.Minimum-Number-of-K-Consecutive-Bit-Flips) (H-)    
 [1094.Car-Pooling](Others/1094.Car-Pooling) (E)  
 [1109.Corporate-Flight-Bookings](Others/1109.Corporate-Flight-Bookings) (M)    
