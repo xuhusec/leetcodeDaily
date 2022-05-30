@@ -1,0 +1,126 @@
+### [2158.Amount-of-New-Area-Painted-Each-Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day)
+
+There is a long and thin painting that can be represented by a number line. You are given a **0-indexed** 2D integer array paint of length n, where paint[i] = [start<sub>i</sub>, end<sub>i</sub>]. This means that on the ith day you need to paint the area **between** start<sub>i</sub> and end<sub>i</sub>.
+
+Painting the same area multiple times will create an uneven painting so you only want to paint each area of the painting at most **once**.
+
+Return an integer array `worklog` of length `n`, where `worklog[i]` is the amount of ***new*** area that you painted on the i<sup>th</sup> day.
+
+
+Constraints:
+* 1 <= paint.length <= 10<sup>5</sup>
+* paint[i].length == 2
+* 0 <= start<sub>i</sub> < end<sub>i</sub> <= 5 * 10<sup>4</sup>
+
+Example
+Input: paint = [[1,6],[6,9],[7,10]]
+Output: [5,3,1]
+Explanation:
+On day 0, paint everything between 1 and 6.
+The amount of new area painted on day 0 is 6 - 1 = 5.
+On day 1, paint everything between 6 and 9.
+The amount of new area painted on day 1 is 9 - 6 = 3.
+On day 2, paint everything between 7 and 10.
+Everything between 7 and 9 was already painted on day 1.
+The amount of new area painted on day 2 is 10 - 9 = 1. 
+
+
+#### Solution 1: Line Sweep
+
+A brute force solution would be mark the minimum paint id on an array. The array ranges from the minimum start to max end. And for each paint we can mark all the cells from start to end if there is no paint with smaller id that already applied. And count again are they are mark. This would be a O(mn) where m is the length of paint array and n is the average length of all paints. It would time out as they are in 10<sup>5</sup>. This is about range with constant value (the paint day), we can try to solve it with line sweep.
+
+This problem is different from other line sweep problem. For other line sweep solution, we are record the occurance and update accordingly. But for this problem, we need to record the paint id, i.e the day this paint is applied, and we need to figure out the smallest paintId among all applied paints. We cannot just have a number or a flag. We need a list to keep all the information.
+
+Like the other line sweep problem, we can break a building into two events. Here we need to keep paint id. So we have have {start<sub>i</sub>: {{paintId, isStart}}, end<sub>i</sub>: {{paintId, !isStart}}} We break it into two events. The first is assoicated with start of a paint (isStart = true). The second is with the end of a paint. If there is another event use either key of the above. we can append that event into the value (a list).
+
+We can sort those events by the key. Now we can scan the events. We need a data structure for look up and and get the min key quickly for the paints. We can use TreeSet. It provide O(logn) for both operations. The treeSet, says cntSet, records the paintId. Because the paintId is unique. Set is already good enough. When we met a start event, it is paintId is added into the set. Otherwise, the paintId should be removed from the set. After checking all events at a given point. We can know the smallest paintId at that point. Note, if the cntSet is empty, like at the end, we should set id to an existing value. I use -1 in this case.
+
+if previous id does not exists, -1, we can assign the current id as the previous id for the next round and record the current position in another variable. Otherwise, if it different from the previous id, we can add it to the answer for the current paintId. Please note a paint might be divided by other paints. So, we need to add it to the answer instead of assignment. 
+
+#### Solution 2: Divide and Conquer
+
+Like LC 218, we can also use divide and conquer. However, it might not be very straght forward because it is dividing instead of merge. The idea is to have two small list with sorted range and "merge" them into one.
+
+The implementation is similar to merge sort.  In the final merge state. We can keep track the intervals from left and intervals from right. If either the end of left <= the start of right or the end of right <= the start of right. The earlier interval of the two can be added in final answer. For other cases, if the two interval is not started at the same point. We can remove leading part in the interval and remove it and add the removed part to the answer. Change the corresponding interval to the modified interval (the modification is to remove the leading uncommon part) for the next round. If they are equal, the one with smallest paint id would win. However, we can only add the part >= the end of another paint because we cannot check the paint id of the next paint.
+
+In the implementation, I used LinkedList + iterator. The following is a version of ArrayList and its id. Please note in the following solution, we cannot use List.of() because we need to set the modified information but the list generated by List.of is immutable
+
+```java  
+    private List<Info> mergePaint(int[][] paint, int start, int end) {
+        if (start == end) {
+            int[] p = paint[start];
+            List<Info> ans = new ArrayList<>();
+            ans.add(new Info(start, p[0], p[1]));
+            return ans;
+        }
+        
+        int mid = start + (end - start)/2;
+        List<Info> left = mergePaint(paint, start, mid);
+        List<Info> right = mergePaint(paint, mid + 1, end);
+        
+        return merge(left, right);
+    }
+    
+    private List<Info> merge(List<Info> left, List<Info> right) {
+        int lId = 0;
+        int rId = 0;
+        List<Info> ans = new ArrayList<>();
+        while (lId < left.size() && rId < right.size()) {
+            Info l = left.get(lId);
+            Info r = right.get(rId);
+            
+            if (l.end <= r.start) {
+                addToInfoList(ans, l);
+                lId++;
+                continue;
+            }
+            
+            if (r.end <= l.start) {
+                addToInfoList(ans, r);
+                rId++;
+                continue;
+            }
+            
+            if (l.start < r.start) {
+                ans.add(new Info(l.id, l.start, r.start));
+                left.set(lId, new Info(l.id, r.start, l.end));
+            } else if (r.start < l.start) {
+                ans.add(new Info(r.id, r.start, l.start));
+                right.set(rId, new Info(r.id, l.start, r.end));
+            } else {
+                if (l.id < r.id) {
+                    if (l.end <= r.end) {
+                        addToInfoList(ans, l);
+                        lId++;
+                        right.set(rId, new Info(r.id, l.end, r.end));
+                    } else {
+                        addToInfoList(ans, new Info(l.id, l.start, r.end));
+                        left.set(lId, new Info(l.id, r.end, l.end));
+                        rId++;
+                    }
+                } else {
+                    if (r.end <= l.end) {
+                        addToInfoList(ans, r);
+                        rId++;
+                        left.set(lId, new Info(l.id, r.end, l.end));
+                    } else {
+                        addToInfoList(ans, new Info(r.id, r.start, l.end));
+                        right.set(rId, new Info(r.id, l.end, r.end));
+                        lId++;
+                    }
+                }
+            }
+            
+            
+        }
+        
+        while (lId < left.size()) {
+            addToInfoList(ans, left.get(lId++));
+        }
+        
+        while (rId < right.size()) {
+            addToInfoList(ans, right.get(rId++));
+        }
+        return ans;
+    }
+ ```   

@@ -61,8 +61,10 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [906.Super-Palindromes](Others/906.Super-Palindromes) (H-)   
 [2081.Sum-of-k-Mirror-Numbers](Others/2081.Sum-of-k-Mirror-Numbers) (H-)    
 [2217.Find-Palindrome-With-Fixed-Length](Others/2217.Find-Palindrome-With-Fixed-Length) (M+)    
+* ``Aggregate Subarray by element``   
+[828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String](Greedy/828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String) (H-)    
+[2262.Total-Appeal-of-A-String](Greedy/2262.Total-Appeal-of-A-String) (M+)      
 * ``line sweep / Diff Array``   
-[218.The-Skyline-Problem](Others/218.The-Skyline-Problem) (H)   
 [253.Meeting-Rooms-II](Others/253.Meeting-Rooms-II) (M+)    
 [056.Merge-Intervals](Others/056.Merge-Intervals) (M)   
 [732.My-Calendar-III](Others/732.My-Calendar-III) (M)    
@@ -77,6 +79,8 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [1893.Check-if-All-the-Integers-in-a-Range-Are-Covered](Others/1893.Check-if-All-the-Integers-in-a-Range-Are-Covered) (E)    
 [1943.Describe-the-Painting](Others/1943.Describe-the-Painting) (H-)  
 [2015.Average-Height-of-Buildings-in-Each-Segment](Others/2015.Average-Height-of-Buildings-in-Each-Segment) (H-)   
+[218.The-Skyline-Problem](Others/218.The-Skyline-Problem) (H)   
+[2158.Amount-of-New-Area-Painted-Each-Day](Others/2158.Amount-of-New-Area-Painted-Each-Day) (H-)      
 [2237.Count-Positions-on-Street-With-Required-Brightness](Others/2237.Count-Positions-on-Street-With-Required-Brightness) (M)      
 [2251.Number-of-Flowers-in-Full-Bloom](Others/2251.Number-of-Flowers-in-Full-Bloom) (M)     
 * ``Presum``  
