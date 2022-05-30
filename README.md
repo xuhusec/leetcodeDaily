@@ -94,6 +94,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 #### [Stack](Stack)
 * ``monotonic stack``    
 [042.Trapping-Rain-Water](Stack/042.Trapping-Rain-Water) (H)  
+[907.Sum-of-Subarray-Minimums](Stack/907.Sum-of-Subarray-Minimums) (H-)   
 
 #### [String](String)
 [2168.Unique-Substrings-With-Equal-Digit-Frequency](String/2168.Unique-Substrings-With-Equal-Digit-Frequency) (M)      
