@@ -96,6 +96,7 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [042.Trapping-Rain-Water](Stack/042.Trapping-Rain-Water) (H)  
 [907.Sum-of-Subarray-Minimums](Stack/907.Sum-of-Subarray-Minimums) (H-)   
 [1856.Maximum-Subarray-Min-Product](Stack/1856.Maximum-Subarray-Min-Product) (M+)  
+[2104.Sum-of-Subarray-Ranges](Stack/2104.Sum-of-Subarray-Ranges) (H-)      
 
 #### [String](String)
 [2168.Unique-Substrings-With-Equal-Digit-Frequency](String/2168.Unique-Substrings-With-Equal-Digit-Frequency) (M)      
