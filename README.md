@@ -117,6 +117,8 @@ This project follows [this repo](https://github.com/wisdompeak/LeetCode) on Dail
 [2049.Count-Nodes-With-the-Highest-Score](Tree/2049.Count-Nodes-With-the-Highest-Score) (M+)    
 [2246.Longest-Path-With-Different-Adjacent-Characters](Tree/2246.Longest-Path-With-Different-Adjacent-Characters) (M+)     
 
+#### [Two Pointers](Two_Pointers)
+[1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition](Two_Pointers/1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition) (H-)    
 
 #### [Union Find](Union_Find)
 [765.Couples-Holding-Hands](Union_Find/765.Couples-Holding-Hands) (H-)  
